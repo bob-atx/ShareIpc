@@ -14,14 +14,14 @@ Process A
   TmsListCreate("ListA", ...);
   lista = TmsListOpen("ListA", ...);
   data = TmsListAlloc(lista, size, ...);
-  Prepare(data);
+  (fill in data)
   TmsListWrite(lista, data);
   TmsFree(data);
 
 Process B
   lista = TmsListOpen("ListA", ...);
   data = TmsListRead(lista, ...);
-  Process(data);
+  (process data)
   TmsFree(data);
   ```
 ## Memory Pools

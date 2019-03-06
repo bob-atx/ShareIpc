@@ -7,17 +7,8 @@ The following components work seamlessly across threads and processes.
   + Queue
   + Stack
   + Ring
-  
-## Memory Pools
-  + Heap 
-  + Dynamic
-  + Fixed
-  
-## Hash Tables
-  + Read Modify Write
-  + State Based
-  
-## Example
+
+### List Example
 ```c
 Process A
   TmsListCreate("ListA", ...);
@@ -33,3 +24,13 @@ Process B
   Process(data);
   TmsFree(data);
   ```
+## Memory Pools
+  + Heap 
+  + Dynamic
+  + Fixed
+  
+## Hash Tables
+  + Read Modify Write
+  + State Based
+  
+

@@ -1,5 +1,5 @@
 # ShareIpc - Shared Memory System
-Tms is a brokerless, peer-to-peer shared memory library of semantically consistent functions for communicating between threads and processes. 
+Tms is a brokerless, peer-to-peer shared memory library of semantically consistent functions for communicating between threads and processes.  shareIpc is a thread-safe, GNU/Linux/pthreads package (32/64) and not suitable for MS Windows or macOS.
 
 The following components work seamlessly across threads and processes. 
 
@@ -22,8 +22,8 @@ The following components work seamlessly across threads and processes.
 ## Shared Memory
 
 ## Locks
-+ Mutex, Read/write, Condition Variables (CV)
-+ CV Signaling
++ Mutex, read/write, condition variables (CV)
++ CV signaling and callbacks
 + Simple file locking
 
 ## Timers

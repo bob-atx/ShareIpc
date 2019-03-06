@@ -7,23 +7,7 @@ The following components work seamlessly across threads and processes.
   + Queue
   + Stack
   + Ring
-
-### List Example
-```c
-Process A
-  TmsListCreate("ListA", ...);
-  lista = TmsListOpen("ListA", ...);
-  data = TmsListAlloc(lista, size, ...);
-  (fill in data)
-  TmsListWrite(lista, data);
-  TmsFree(data);
-
-Process B
-  lista = TmsListOpen("ListA", ...);
-  data = TmsListRead(lista, ...);
-  (process data)
-  TmsFree(data);
-  ```
+  
 ## Memory Pools
   + Heap 
   + Dynamic

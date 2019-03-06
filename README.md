@@ -35,5 +35,16 @@ Process B
   + Callbacks inline or as threads
   + Notification on updates
   
+## Shared Memory
+
+## Locks
++ Mutex, Read/write, Condition Variables (CV)
++ CV Signaling
++ Simple file locking
+
+## Timers
+
+## Threads
+  
   
 

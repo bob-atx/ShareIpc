@@ -30,7 +30,9 @@ Process B
   + Fixed
   
 ## Hash Tables
-  + Read Modify Write
-  + State Based
+  + Read, write, delete, read-modify-write
+  + Fast state based transactions
+  + Callbacks inline or as threads
+  
   
 

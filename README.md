@@ -33,6 +33,7 @@ Process B
   + Read, write, delete, read-modify-write
   + Fast state based transactions
   + Callbacks inline or as threads
+  + Notification on updates
   
   
 

@@ -18,6 +18,7 @@ The following components work seamlessly across threads and processes.
   + State Based
   
 ## Example
+```c
 Process A
   TmsListCreate("ListA", ...);
   lista = TmsListOpen("ListA", ...);
@@ -31,3 +32,4 @@ Process B
   data = TmsListRead(lista, ...);
   Process(data);
   TmsFree(data).
+  ```

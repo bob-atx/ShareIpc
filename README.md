@@ -31,5 +31,5 @@ Process B
   lista = TmsListOpen("ListA", ...);
   data = TmsListRead(lista, ...);
   Process(data);
-  TmsFree(data).
+  TmsFree(data);
   ```

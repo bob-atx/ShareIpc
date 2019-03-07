@@ -23,7 +23,7 @@ The following components work seamlessly across threads and processes.
   
 ## Shared Memory
 
-## Locks
+## Synchronization
 + Mutex, read/write, condition variables (CV)
 + CV signaling and callbacks
 + Simple file locking

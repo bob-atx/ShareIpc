@@ -1,4 +1,4 @@
-# ShareIpc - Shared Memory System
+# ShareIpc - Shared Memory System (Work in Progress)
 ShareIpc is a brokerless shared memory library of semantically consistent functions for communicating between threads and processes.  ShareIpc is a thread-safe, GNU/Linux/pthreads C package (32/64) and not suitable for MS Windows or macOS.
 
 The ShareIpc library is built as a single source file and is compiled using cmake.

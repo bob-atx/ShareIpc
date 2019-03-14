@@ -1,1 +1,0 @@
-/usr/bin/cc  -fPIC   -shared -Wl,-soname,libshareipc.so -o libshareipc.so CMakeFiles/shareipc.dir/shm_mem.c.o 

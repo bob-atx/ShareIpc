@@ -1,2 +1,0 @@
-/usr/bin/ar qc libshareipc.a  CMakeFiles/shareipc_static.dir/shm_mem.c.o
-/usr/bin/ranlib libshareipc.a

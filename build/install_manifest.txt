@@ -1,6 +1,0 @@
-/usr/lib/libshareipc.so
-/usr/include/shm_include.h
-/usr/lib/libshareipc.a
-/home/bob/5_13_2018/tms/tms/internals/bin/ltest
-/home/bob/5_13_2018/tms/tms/internals/bin/rtest
-/home/bob/5_13_2018/tms/tms/internals/bin/htest

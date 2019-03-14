@@ -1,1 +1,0 @@
-/usr/bin/cc     CMakeFiles/ltest.dir/tests/ltest.c.o  -o ltest src/libshareipc.so -lrt -lpthread -Wl,-rpath,/home/bob/5_13_2018/tms/tms/internals/build/src: 

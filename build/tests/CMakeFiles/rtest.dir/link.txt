@@ -1,1 +1,0 @@
-/usr/bin/cc     CMakeFiles/rtest.dir/rtest.c.o  -o rtest ../src/libshareipc.a -lrt -lpthread 

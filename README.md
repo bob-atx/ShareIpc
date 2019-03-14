@@ -4,11 +4,13 @@ ShareIpc is a brokerless shared memory library of semantically consistent functi
 The ShareIpc library is built as a single source file and is compiled using cmake.
 
 To install and build:
-> git clone https://github.com/bob-atx/ShareIpc.git
-> cd ShareIpc/build
-> cmake ..
-> make
-> sudo make install
+```
+git clone https://github.com/bob-atx/ShareIpc.git
+cd ShareIpc/build
+cmake ..
+make
+sudo make install
+```
 
 The following components work seamlessly across threads and processes. 
 

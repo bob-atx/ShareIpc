@@ -16,8 +16,6 @@
 //#include "tms_err.h"
 //#include "tms_dbg.h"
 
-#pragma message("XXXXXXXXXXXXXXXXXXXX stuff")
-
 #include "shm_tlsf.c"
 #include "shm_log.c"
 #include "shm_dbg.c"

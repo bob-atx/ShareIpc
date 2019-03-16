@@ -17,7 +17,7 @@ set (BIN_DIR ${CMAKE_SOURCE_DIR}/bin)
 set (OUT_LIB_DIR /usr/lib)
 
 # install include dir
-set (OUT_INC_DIR /usr/include)
+set (OUT_INC_DIR /usr/include/${CMAKE_PROJECT_NAME})
 
 # src include directory
 set(SRC_INC_DIR includes)
